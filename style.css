@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:  brown;
+    height: 100%;
+}
+
+svg {
+    background-color: darksalmon;
+    box-shadow: 0px 0px 15px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+html {
+    height: 100%;
+}
+
+#title {
+    font-size: 30px;
+    fill: firebrick;
+    font-weight: bold;
+}
+
+#tooltip {
+    color: salmon;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.bar:hover {
+    fill: salmon;
+}
+
+.bar {
+    fill: brown;
+    background-color: yellow;
+    border-color: blue;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+
+* {
+    font-family: 'Merriweather';
+}
+
+.ending {
+    color: salmon;
+    font-size: 10px;
+    text-align: center;
+    
+}
+
+a {
+    color: salmon;
+}
+
+a:hover {
+    color:darksalmon;
+}
